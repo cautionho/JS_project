@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>计算器</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/calculator.css" />
+
+		<script src="js/calculator.js" defer></script>
+		<script src="js/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<button id="calc">打开计算机</button>
+		<div id="container">
+			<!--顶部状态栏-->
+			<div id="status">
+				<span>计算器</span>
+				<button id="close">关闭</button>
+				<button id="bigger">最大化</button>
+				<button id="smaller">还原</button>
+			</div>
+
+			<!--显示屏幕-->
+			<div id="show">
+				<p></p>
+				<p></p>
+			</div>
+
+			<div id="buttonTable">
+				<button value="ON">ON</button>
+				<button value="OFF">OFF</button>
+				<br />
+				<button id="reset">C</button>
+				<button id="remove">←</button>
+				<button value="%">%</button>
+				<button value="/">÷</button><br />
+				<button value="7">7</button>
+				<button value="8">8</button>
+				<button value="9">9</button>
+				<button value="*">×</button><br />
+				<button value="4">4</button>
+				<button value="5">5</button>
+				<button value="6">6</button>
+				<button value="-">-</button><br />
+				<button value="1">1</button>
+				<button value="2">2</button>
+				<button value="3">3</button>
+				<button value="+">+</button><br />
+				<button value="0">0</button>
+				<button value="." id="pos">.</button>
+				<button id="equal">=</button>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,37 @@
+/*初始化网页css样式*/
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	
+}
+
+header,main,footer,section{
+	display: block;
+}
+
+ol, ul { 
+list-style: none; 
+} 
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+body { 
+line-height: 1; 
+color: #000; 
+background: #fff; 
+min-width: 1200px;
+margin: 0 auto;
+font-family: "微软雅黑";
+} 

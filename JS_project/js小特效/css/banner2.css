@@ -1,0 +1,21 @@
+#container{
+	width: 900px;
+	height: 300px;
+	margin: 0 auto;
+	/*background: red;*/
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#container>div{
+	width: 90px;
+	height: 300px;
+	float: left;
+	border: 2px solid #fff;
+	transition: all .5s;
+	overflow: hidden;
+}
